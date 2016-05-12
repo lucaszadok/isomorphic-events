@@ -1,6 +1,6 @@
 {
   "name": "isomorphic-events",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Isomorphic Events interface",
   "browser": "src/events-browser.js",
   "main": "src/events-node.js",
@@ -15,8 +15,11 @@
     "Events",
     "CustomEvent"
   ],
-  "author": "Lucas Barros",
-  "license": "ISC",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "author": "lucsbarros@gmail.com",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/lucasbarros/isomorphic-events/issues"
   },
