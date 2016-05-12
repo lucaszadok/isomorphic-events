@@ -1,0 +1,24 @@
+{
+  "name": "isomorphic-events",
+  "version": "0.1.0",
+  "description": "Isomorphic Events interface",
+  "browser": "src/events-browser.js",
+  "main": "src/events-node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasbarros/isomorphic-events.git"
+  },
+  "keywords": [
+    "Events",
+    "CustomEvent"
+  ],
+  "author": "Lucas Barros",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucasbarros/isomorphic-events/issues"
+  },
+  "homepage": "https://github.com/lucasbarros/isomorphic-events#readme"
+}
