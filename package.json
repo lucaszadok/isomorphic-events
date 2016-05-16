@@ -5,7 +5,8 @@
   "browser": "src/events-browser.js",
   "main": "src/events-node.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "release-it"
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/lucasbarros/isomorphic-events/issues"
   },
-  "homepage": "https://github.com/lucasbarros/isomorphic-events#readme"
+  "homepage": "https://github.com/lucasbarros/isomorphic-events#readme",
+  "devDependencies": {
+    "release-it": "^2.3.1"
+  }
 }
