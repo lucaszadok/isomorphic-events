@@ -1,6 +1,6 @@
 {
   "name": "isomorphic-events",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Isomorphic Events interface",
   "browser": "src/events-browser.js",
   "main": "src/events-node.js",
