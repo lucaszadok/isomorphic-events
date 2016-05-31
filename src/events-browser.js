@@ -2,12 +2,14 @@
 
 require('./events-browser-polyfill');
 
-const on = function(evt, params) {
-  return window.addEventListener(evt, params);
+const on = function(evt, params, options) {
+  const target = options && options.target ? options.target : window;
+  return target.addEventListener(evt, params);
 };
 
-const emit = function(evt, params) {
-  window.dispatchEvent(new window.CustomEvent(evt, params));
+const emit = function(evt, params, options) {
+  const target = options && options.target ? options.target : window;
+  return target.dispatchEvent(new window.CustomEvent(evt, params));
 };
 
 module.exports = {

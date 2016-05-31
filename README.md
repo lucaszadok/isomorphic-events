@@ -1,5 +1,5 @@
 # isomorphic-events
-Isomorphic Event interface
+Emit and Listen events on node and browser.
 
 ## Usage
 
