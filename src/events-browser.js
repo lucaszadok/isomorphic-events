@@ -2,13 +2,13 @@
 
 require('./events-browser-polyfill');
 
-const on = function(evt, params, options) {
-  const target = options && options.target ? options.target : window.document;
+var on = function(evt, params, options) {
+  var target = options && options.target ? options.target : window.document;
   return target.addEventListener(evt, params);
 };
 
-const emit = function(evt, params, options) {
-  const target = options && options.target ? options.target : window.document;
+var emit = function(evt, params, options) {
+  var target = options && options.target ? options.target : window.document;
   return target.dispatchEvent(new window.CustomEvent(evt, params));
 };
 
